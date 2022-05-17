@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="javascrypt.js"> </script> 
+<script src="javascrypt.js" defer> </script> 
+<link rel="stylesheet" href="styles.css">
 <meta charset="UTF-8">
 </head>
 
 <body>
+
+<div id="butony">
+    <button onclick="kamen()">Kameň</button>
+    <button onclick="papier()">Papier</button>
+    <button onclick="noznice()">Nožnice</button>
+</div>
+
+<div id="vysledky">
+    <p>Výsledok kola je:<h1 id="hodnotenie"></h1> </p>
+</div>
+
+<div>
+    <p>Skóre hráča je:<h2 id="skoreH"></h2> </p>
+    <p>Skóre počítača je:<h2 id="skoreP"></h2> </p>
+
+    <p>Výťazom sa stáva:<h1 id="verdikt"></h1></p>
+</div>
 
 </body>
 

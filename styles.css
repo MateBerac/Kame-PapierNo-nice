@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+button {
+background-color: beige;
+border-radius: 10px;
+flex-grow: 0;
+justify-content: center;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+#vysledky {
+    align-items: flex-end;
+}
+
+#butony {
+ justify-content: center;   
+}
+
+p{
+    font-style: italic;
+}
+
+#verdikt{
+    color:blue
+}
