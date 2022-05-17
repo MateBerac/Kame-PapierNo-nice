@@ -10,8 +10,6 @@ let hrac = 0
 let pocitac = 0
 
 
-
-
 function kamen() {
     let pocitacVyber = computerPlay()
     if(pocitacVyber == 'kamen') {
@@ -43,6 +41,7 @@ function papier() {
     }
     document.getElementById("skoreH").innerHTML = hrac;
 document.getElementById("skoreP").innerHTML = pocitac;
+rozhodca()
 }
 
 function noznice() {
@@ -59,6 +58,7 @@ function noznice() {
     }
     document.getElementById("skoreH").innerHTML = hrac;
 document.getElementById("skoreP").innerHTML = pocitac;
+rozhodca()
 }
 
 
